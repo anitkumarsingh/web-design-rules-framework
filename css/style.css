@@ -1,0 +1,64 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.container{
+  width: 990px;
+  /* background-color: #f6f6f6; */
+  margin: 0 auto;
+}
+header{
+  display: grid;
+  grid-template-columns: 1fr 440px;
+  column-gap: 80px;
+  align-items: center;
+  margin-top: 80px;
+}
+h1,h2,p{
+  margin-bottom: 20px;
+}
+h3,h4{
+  margin-bottom: 15px;
+}
+ul{
+  list-style: none;
+}
+li{
+  margin-bottom: 5px;
+}
+img{
+  width: 100%;
+}
+.hero-img{
+ width: 440px;
+ height: auto;
+}
+.feature-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.testimonial-section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 40px;
+  align-items: center;
+}
+.testimonial{
+  grid-column: 2 / -1;
+}
+.products{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-card{
+  width: 270px;
+}
+footer{
+  margin-top: 80px;
+}
