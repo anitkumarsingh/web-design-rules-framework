@@ -30,13 +30,13 @@ header{
   grid-template-columns: 1fr 440px;
   column-gap: 80px;
   align-items: center;
-  margin: 80px 0;
+  margin: 96px 0;
 }
-h2,p{
+p{
   margin-bottom: 35px;
 }
 h3{
-  margin: 20px 0;
+  margin: 24px 0 0 0;
 }
 h1{
   /* 44 / 52 / 62 */
@@ -47,6 +47,7 @@ h1{
 }
 h2{
   font-size: 30px;
+  margin-bottom: 42px;
 }
 p{
   font-size: 18px;
@@ -54,7 +55,7 @@ p{
 }
 ul{
   list-style: none;
-  padding: 10px;
+  padding: 24px;
 }
 li{
   margin-bottom: 5px;
@@ -94,7 +95,7 @@ img{
  height: auto;
 }
 .feature-section{
-  margin-bottom : 40px;
+  margin-bottom : 32px;
 }
 .feature-container{
   display: grid;
@@ -110,10 +111,10 @@ img{
   grid-template-columns: repeat(3,1fr);
   column-gap: 40px;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 98px;
   background-color: #087f5b;
   color: #fff;
-  padding: 18px;
+  padding: 24px;
   border-radius: 12px;
 }
 .testimonial{
@@ -121,6 +122,13 @@ img{
 }
 .testimonial h2{
   font-size: 26px;
+  margin-bottom: 32px;
+}
+.testimonial-text{
+color: #e6fcf5;
+}
+.testimonial-author{
+  color: #c3fae8;
 }
 .products{
   display: flex;
@@ -136,7 +144,7 @@ img{
   border-bottom-right-radius: 0;
 }
 .product-card h3{
-  padding: 0 10px;
+  padding: 0 24px;
 }
 .chair-icon{
   stroke: #087f5b;
@@ -146,7 +154,9 @@ img{
 .price{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 18px;
+  margin-top: 24px;
 }
 footer{
   margin-top: 80px;
