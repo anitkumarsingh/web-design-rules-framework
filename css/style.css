@@ -62,6 +62,7 @@ li{
 }
 img{
   width: 100%;
+  border-radius: 12px;
 }
 /* Reuseable components  */
 .btn:link,
@@ -72,6 +73,9 @@ img{
   text-decoration: none;
   font-weight: 500;
   display: inline-block;
+}
+.btn{
+  border-radius: 50px;
 }
 .btn:hover,
 .btn:active{
@@ -110,6 +114,7 @@ img{
   background-color: #087f5b;
   color: #fff;
   padding: 18px;
+  border-radius: 12px;
 }
 .testimonial{
   grid-column: 2 / -1;
@@ -124,7 +129,11 @@ img{
 }
 .product-card{
   width: 270px;
-  box-shadow: 9px 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.product-card img{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .product-card h3{
   padding: 0 10px;
