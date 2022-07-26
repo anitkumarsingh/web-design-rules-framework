@@ -54,6 +54,7 @@ p{
 }
 ul{
   list-style: none;
+  padding: 10px;
 }
 li{
   margin-bottom: 5px;
@@ -123,6 +124,10 @@ img{
 }
 .product-card{
   width: 270px;
+  box-shadow: 9px 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.product-card h3{
+  padding: 0 10px;
 }
 .chair-icon{
   stroke: #087f5b;
